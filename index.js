@@ -86,7 +86,7 @@ app.post('/sms', (req, res) => {
         .create({
             body: message,
             from: TWILIO_NUMBER,
-            to: FORWARDING_NUMBER
+            to: USER_FORWARDING_NUMBER
         })
         .then(message => console.log('Forwarded Message. SID: ' + message.sid))
         .done();
