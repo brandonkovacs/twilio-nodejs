@@ -1,0 +1,24 @@
+{
+  "name": "twilio-nodejs",
+  "version": "1.0.0",
+  "description": "Forward calls and SMS messages from your Twilio number to a real number w/ NodeJS + Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonkovacs/twilio-nodejs.git"
+  },
+  "keywords": [
+    "twilio",
+    "node",
+    "nodejs"
+  ],
+  "author": "@brandonkovacs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonkovacs/twilio-nodejs/issues"
+  },
+  "homepage": "https://github.com/brandonkovacs/twilio-nodejs#readme"
+}
