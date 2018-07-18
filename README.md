@@ -28,12 +28,17 @@ Forward calls and SMS messages from your Twilio number to a real number w/ NodeJ
 Set Twilio Voice + SMS Webhooks for this number to our SSL Endpoints.
 
 #### Voice & Fax
+Accept Incoming: `Voice Calls`
+Configure With: `Webhooks, TwiML Bins, Functions, Studio, or...`
+
 When A Call Comes In:
   * Handler: `Webhook`
   * URL: `https://example.com:8080/voice`
   * Request Type: `HTTP POST`
 
 #### Voice & Fax
+Configure With: `Webhooks, TwiML Bins, Functions, Studio, or...`
+
 When A Message Comes In:
   * Handler: `Webhook`
   * URL: `https://example.com:8080/sms`
